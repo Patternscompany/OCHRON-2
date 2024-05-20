@@ -2722,3 +2722,49 @@ a:focus {
     object-fit: scale-down;
 }
 
+.page-header {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/1.png) center center no-repeat;
+    background-size: cover;
+    
+}
+.page-header1 {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/k1.png) center center no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.page-header2 {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/bed banner.png) center center no-repeat;
+    background-size: cover;
+}
+.page-header3 {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/kitchen-hero.jpg) center center no-repeat;
+    background-size: cover;
+}
+.page-header4 {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/warddrop.hero.avif) center center no-repeat;
+    background-size: cover;
+}
+.page-header6 {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/8.png) center center no-repeat;
+    background-size: cover;
+}
+.page-header7 {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/8.png) center center no-repeat;
+    background-size: cover;
+}
+.page-header9 {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/k.png) center center no-repeat;
+    background-size: cover;
+}
+.page-header11 {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/ss.png) center center no-repeat;
+    background-size: cover;
+}
+.page-header12 {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/cc.png) center center no-repeat;
+    background-size: cover;
+}
+.page-header13 {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/cc.png) center center no-repeat;
+    background-size: cover;
+}
