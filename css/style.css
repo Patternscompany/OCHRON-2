@@ -2490,7 +2490,7 @@ a:focus {
 .feature-img {
     position: relative;
     height: 100%;
-    min-height: 350px;
+    min-height: 400px;
 }
 
 .about-img img,
