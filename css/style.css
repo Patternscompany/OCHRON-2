@@ -2529,6 +2529,16 @@ a:focus {
     border-bottom-left-radius: 45px;
     border-bottom-right-radius:0px ;
 }
+.cont1{
+    background-color:black;
+    color:white;
+    
+    border-top-left-radius:0px ;
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius:0px ;
+}
+
 
 
 
