@@ -2520,3 +2520,88 @@ a:focus {
 .cc{
     border-radius: 70px;
 }
+
+
+
+/*** Service ***/
+.service-item .bg-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.service-item .service-text {
+    background: var(--primary);
+    transition: .5s;
+}
+
+.service-item:hover .service-text {
+    background: rgba(0, 0, 0, .7);
+}
+
+.service-item * {
+    transition: .5;
+}
+
+.service-item * {
+    color: #FFFFFF;
+}
+.service-item:hover * {
+    color: #FFFFFF;
+}
+
+.service-item .btn {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    color: var(--dark);
+    background: #FFFFFF;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.service-item:hover .btn {
+    width: 140px;
+}
+.service-item1 .bg-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    border: 2px solid #2078a4;
+}
+
+.service-item1 .service-text {
+    background: var(--light);
+    transition: .5s;
+    border: 1px solid #2078a4;
+}
+
+.service-item1:hover .service-text {
+    background: #2078a4;
+}
+
+
+
+.service-item1:hover * {
+    color: #FFFFFF;
+}
+
+
+.service-item2{
+    position: relative;
+    width: 100%;
+    padding: 2rem;
+
+    
+    
+}
+
+
+
+
