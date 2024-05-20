@@ -2790,8 +2790,17 @@ a:focus {
 }
 
 .bgk{
-    background-image: url("img/bed room/3a57be0fff784be1fba97f8e6a5e6914C2VM8l26gZacJMLe-25.jpg");
+    background-image: url("img/living room/18.png");
     height: 100%;
     width:100%;
+    background-size: cover;
     
 }
+
+.container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+  }
