@@ -3,7 +3,7 @@
 /*******************************/
 body {
     color: #666666;
-    background: black;
+    background: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
@@ -2519,6 +2519,15 @@ a:focus {
 }
 .cc{
     border-radius: 70px;
+}
+.cont{
+    background-color:#2078a4;
+    color:black;
+    
+    border-top-left-radius:0px ;
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius:0px ;
 }
 
 
