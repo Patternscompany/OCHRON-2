@@ -2059,7 +2059,7 @@ a:focus {
     position: relative;
     margin-top: 45px;
     padding-top: 90px;
-    background: #030f27;
+    background:black;
     color: #ffffff;
 }
 
@@ -2803,4 +2803,15 @@ a:focus {
     padding-left: var(--bs-gutter-x, 0.75rem);
     margin-right: auto;
     margin-left: auto;
+   
+    
   }
+  .testi{
+    background-image: url("img/wardrobe/AnyConv.com__IMG_2925.jpg") !important;
+    background-size: cover;
+  }
+
+
+.just{
+    text-align: justify;
+}
