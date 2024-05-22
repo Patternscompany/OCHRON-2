@@ -500,15 +500,21 @@ a:focus {
 .feature {
     position: relative;
     margin-bottom: 45px;
+    padding-top:0px;
+    margin-top: 0px;
 }
 
 .feature .col-md-12 {
-    background: black;
+    background: #2078a4;
+    padding-top:0px;
+    margin-top: 0px;
 }
+
     
 .feature .col-md-12:nth-child(2n) {
     color: #030f27;
-    background: black;
+    background: #2078a4
+    ;
 
 }
 
@@ -547,13 +553,13 @@ a:focus {
     height: 79px;
     top: -18px;
     left: -9px;
-    background: black;
+    background:white;
     border-radius: 60px;
     z-index: 2;
 }
 
 .feature .col-md-12:nth-child(2n) .feature-icon::after {
-    background: black;
+    background: white;
 }
 
 .feature .feature-icon [class^="flaticon-"]::before {
@@ -2809,56 +2815,56 @@ a:focus {
     margin-left: auto;
   }
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/1.png) center center no-repeat;
+    background: url(../img/1.png) center center no-repeat;
     background-size: cover;
     
 }
 .page-header1 {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/k1.png) center center no-repeat;
+    background: url(../img/k1.png) center center no-repeat;
     background-size: cover;
     height: 500px;
 }
 .page-header2 {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/pageheros/1.png) center center no-repeat;
+    background: url(../img/pageheros/1.png) center center no-repeat;
     background-size: cover;
     height: 500px;
 }
 .page-header3 {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/k.png) center center no-repeat;
+    background:url(../img/k.png) center center no-repeat;
     background-size: cover;
     height: 500px;
 }
 .page-header4 {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/pageheros/3.png) center center no-repeat;
+    background: url(../img/pageheros/3.png) center center no-repeat;
     background-size: cover;
     height: 500px;
 }
 .page-header6 {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/pageheros/4.png) center center no-repeat;
+    background:url(../img/pageheros/4.png) center center no-repeat;
     background-size: cover;
     height: 500px;
 }
 .page-header7 {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/8.png) center center no-repeat;
+    background: url(../img/8.png) center center no-repeat;
     background-size: cover;
     height: 500px;
 }
 .page-header9 {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/gallerys.gif) center center no-repeat;
+    background: url(../img/gallerys.gif) center center no-repeat;
     background-size: cover;
     height: 500px;
 }
 .page-header11 {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/contacthero.png) center center no-repeat;
+    background: url(../img/contacthero.png) center center no-repeat;
     background-size: cover;
     height: 500px;
 }
 .page-header12 {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/cc.png) center center no-repeat;
+    background: url(../img/cc.png) center center no-repeat;
     background-size: cover;
 }
 .page-header13 {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/cc.png) center center no-repeat;
+    background: url(../img/cc.png) center center no-repeat;
     background-size: cover;
 }
    
