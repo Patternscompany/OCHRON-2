@@ -155,7 +155,7 @@ a:focus {
 /**********************************/
 .nav-bar {
     position: relative;
-    background: black;
+    background: #2078a4;
     transition: .3s;
 }
 
@@ -174,7 +174,7 @@ a:focus {
 
 .nav-bar .navbar {
     height: 100%;
-    background: black !important;
+    background: #2078a4 !important;
     
 }
 
@@ -188,8 +188,9 @@ a:focus {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color:#2078a4;
+    color:black;
     transition: none;
+    font-size: bold;
 }
 
 .nav-bar .dropdown-menu {
@@ -1144,6 +1145,7 @@ a:focus {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .testimonial .container {
@@ -1181,7 +1183,7 @@ a:focus {
     display: block;
     margin-top: 37px;
     width: 100%;
-    height: auto;
+    height:400px;
     border-radius: 100px;
 }
 
