@@ -2836,30 +2836,30 @@ fieldset:disabled a.btn {
 .btn-info.focus,
 .btn-info:focus {
     color: #fff;
-    background-color: #117a8b;
-    border-color: #117a8b;
-    box-shadow: 0 0 0 .2rem #117a8b
+    background-color: #2078a4;
+    border-color: #2078a4;
+    box-shadow: 0 0 0 .2rem #2078a4
 }
 
 .btn-info.disabled,
 .btn-info:disabled {
     color: #fff;
-    background-color: #117a8b;
-    border-color: #117a8b;
+    background-color: #2078a4;
+    border-color: #2078a4;
 }
 
 .btn-info:not(:disabled):not(.disabled).active,
 .btn-info:not(:disabled):not(.disabled):active,
 .show>.btn-info.dropdown-toggle {
     color: #fff;
-    background-color: #117a8b;
-    border-color: #117a8b;
+    background-color: #2078a4;
+    border-color: #2078a4;
 }
 
 .btn-info:not(:disabled):not(.disabled).active:focus,
 .btn-info:not(:disabled):not(.disabled):active:focus,
 .show>.btn-info.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .2rem rgba(58, 176, 195, .5)
+    box-shadow: 0 0 0 .2rem #2078a4
 }
 
 .btn-warning {
