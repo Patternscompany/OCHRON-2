@@ -2815,8 +2815,9 @@ a:focus {
     margin-left: auto;
   }
 .page-header {
-    background: url(../img/1.png) center center no-repeat;
+    background: url(../images/abouts.png) center center no-repeat;
     background-size: cover;
+    height: 500px;
     
 }
 .page-header1 {
@@ -4354,3 +4355,134 @@ main .subBanner .subbanner-text {
 #ymPluginDivContainerInitial {
     display: none !important;
 }
+
+
+/** about page services **/
+
+                .voyages {
+            
+            height: 400px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px 0px 10px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            
+            }
+            
+            img.imgvyge {
+            
+            border-radius: 50%;
+            object-fit: cover;
+            width: 300px;
+            height: 300px;
+            justify-content: center;
+            align-items: center;
+            margin: auto 30px;
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -o-transition: all 1s ease;
+            -ms-transition: all 1s ease;
+            transition: all 1s ease;
+            }
+            
+            .imgvyge:hover {
+            
+            transform: scale(1.1);
+            
+            }
+            
+            p.text {
+            
+            display: none;
+            z-index:100;
+            position:relative;
+            color:black;
+            font-size:24px;
+            font-weight:bold;
+            left:130px;
+            bottom:160px;
+          
+            transition: all 0.7s ease;
+            
+            }
+            /** about page services end **/
+
+
+
+/** about about page start **/       
+.wave {
+    float: left;
+    margin: 20px;
+    animation: wave ease-in-out 0.5s infinite alternate;
+    transform-origin: center -36px;
+}
+
+.wave:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+.wave img {
+    border: 5px solid #f8f8f8;
+    display: block;
+    width: 200px;
+    height: 250px;
+}
+
+.wave figcaption {
+    text-align: center;
+}
+
+.wave:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 1.5px solid #ffffff;
+    top: -10px;
+    left: 50%;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(35deg);
+}
+
+.wave:before {
+    content: '';
+    position: absolute;
+    top: -23px;
+    left: 50%;
+    display: block;
+    height: 44px;
+    width: 47px;
+    background-image: url(https://cdn.hashnode.com/res/hashnode/image/upload/v1602040503586/FW6g79WBY.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    z-index: 16;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(-10deg);
+    }
+}
+
+@media(max-width:992px) {
+    .giff {
+        flex-wrap: wrap;
+    }
+
+    .wave img {
+
+        width: 100%;
+        height: 250px;
+    }
+}
+
+/** about end
