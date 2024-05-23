@@ -3201,7 +3201,7 @@ main .section-lp-quote .cta {
 
 main .section-lp-quote {
     text-align: center;
-    background-color: #d3b28b;
+    background-color: #ACD793;
     padding-top: 125px;
     padding-bottom: 125px;
 }
@@ -3872,16 +3872,17 @@ header .alg-center {
     text-align: center;
     line-height: 39px;
     bottom: 0;
-    height: 29px;
+    height: 42px;
     display: block;
+   
 }
 
 .owl-carousel-nav .owl-nav .owl-prev {
-    left: -2.5%;
+    left: -3.5%;
 }
 
 .owl-carousel-nav .owl-nav .owl-next {
-    right: -2.5%;
+    right: -3.5%;
 }
 
 .owl-carousel-nav .owl-nav .owl-next img,
@@ -4106,7 +4107,7 @@ main .slider .slider-text {
 } */
 
 main .subBanner {
-    background-color: #189ba6;
+    background-color: #2078a4;
     /* margin-top: 10px; */
     text-align: center;
     color: white;
