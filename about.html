@@ -302,7 +302,111 @@
        
             <!-- About End -->
             
+            <style>
+                .voyages {
             
+            height: 400px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px 0px 10px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            
+            }
+            
+            img.imgvyge {
+            
+            border-radius: 50%;
+            object-fit: cover;
+            width: 300px;
+            height: 300px;
+            justify-content: center;
+            align-items: center;
+            margin: auto 30px;
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -o-transition: all 1s ease;
+            -ms-transition: all 1s ease;
+            transition: all 1s ease;
+            }
+            
+            .imgvyge:hover {
+            
+            width: 400px;
+            height:400px;
+            
+            }
+            
+            p.text {
+            
+            display: none;
+            z-index:100;
+            position:relative;
+            color:black;
+            font-size:24px;
+            font-weight:bold;
+            left:130px;
+            bottom:160px;
+            /*-webkit-transition: all 0.7s ease;*/
+            transition: all 0.7s ease;
+            
+            }
+            </style>
+            
+            <script>
+                var x = document.getElementById("img_txt");
+            
+            // if (x) {
+              x.addEventListener("mouseover", func, false);
+              x.addEventListener("mouseout", func1, false);
+            // }
+            
+            function func()
+            {
+               document.getElementById("toto").setAttribute("style", "display:block;")
+            }
+            
+            function func1()
+            {
+                document.getElementById("toto").setAttribute("style", "display:none;")
+            }
+            </script>           
+
+
+ <div class="row">
+    <div class="d-flex flex-row justify-content-center">
+<div>
+    <section class="voyages">
+        <a id="img_txt"　class="anchorvyge" href="#">
+            <img class="imgvyge" src="img/living room/2.png" alt="vyge1"></img>
+            <p id="toto" class="text-dark">Veiw More</p>
+        </a> 
+      </section>
+</div>
+<div>
+    <section class="voyages">
+        <a id="img_txt"　class="anchorvyge" href="#">
+            <img class="imgvyge" src="img/living room/2.png" alt="vyge1"></img>
+            <p id="toto" class="text">YOPYOP</p>
+        </a> 
+      </section>
+</div>
+<div>
+    <section class="voyages">
+        <a id="img_txt"　class="anchorvyge" href="#">
+            <img class="imgvyge" src="img/living room/2.png" alt="vyge1"></img>
+            <p id="toto" class="text">YOPYOP</p>
+        </a> 
+      </section>
+</div>
+    </div>
+ </div>
+
+
+
+
            
             
             <!-- FAQs Start -->
