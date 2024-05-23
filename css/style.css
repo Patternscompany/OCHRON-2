@@ -1154,9 +1154,9 @@ a:focus {
     
 }
 
-.testimonial .container {
+/* .testimonial .container {
     max-width: 760px;
-}
+} */
 
 .about-page .testimonial {
     padding-bottom: 90px;
@@ -1293,6 +1293,9 @@ a:focus {
     background: #2078a4;
     border-radius: 0;
     transition: .3s;
+}
+.text{
+    color: #ffffff;
 }
 
 .blog .blog-item:hover a.btn {
