@@ -3136,6 +3136,7 @@ main .slider .main-box .img-box {
 
 main .slider .text-box-subhead {
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 main .main-box .img-box {
