@@ -925,3 +925,16 @@ function func1()
 {
     document.getElementById("toto").setAttribute("style", "display:none;")
 }
+
+
+
+//whatsapp
+
+        document.addEventListener("DOMContentLoaded", function() {
+    const whatsapp = document.getElementById('whatsapp');
+    setTimeout(function() {
+        whatsapp.style.animation = 'slideDown 2s forwards';
+    }, 500); // Adjust delay if needed
+});
+
+    

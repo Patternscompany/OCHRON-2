@@ -2112,7 +2112,7 @@
 
 
 <!--whatsapp btn start-->
-    <div class="whatsapp">
+    <div class="whatsapp" id="whatsapp">
         <a href="https://wa.me/+918437222333"><i class="fab fa-whatsapp"></i></a>
     </div>
 <!--whatsapp btn end-->    
@@ -2121,7 +2121,17 @@
 
 
 
+<style>
+    @keyframes slideDown {
+    0% {
+        top: -100px;
+    }
+    100% {
+        top: 80vh; /* Adjust as needed */
+    }
+}
 
+</style>
 
 
 
@@ -2169,6 +2179,17 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        const whatsappButton = document.getElementById('whatsapp');
+        setTimeout(function() {
+            whatsappButton.style.animation = 'slideDown 2s forwards';
+        }, 500); // Adjust delay if needed
+    });
+    
+        </script>
 </body>
 
 </html>
