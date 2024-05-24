@@ -4498,8 +4498,9 @@ main .subBanner .subbanner-text {
 .whatsapp {
     position: fixed;
     bottom: 10px;
-    left: 10px;
+    right: 10px;
     z-index: 999;
+    padding-bottom: 80px;
     animation: round 5s linear infinite;
   }
   
