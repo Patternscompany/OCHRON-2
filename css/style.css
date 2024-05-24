@@ -1,12 +1,31 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
-body {
+/* body {
     color: #666666;
     background: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+} */
+
+/* Apply the Roboto font to the body element */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; /* Regular */
 }
+
+/* Apply different weights or styles to other elements as needed */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; /* Medium */
+}
+
+em {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400; /* Italic */
+}
+
 
 h1,
 h2, 
@@ -4543,69 +4562,3 @@ main .subBanner .subbanner-text {
 
 
 
-}
-
-.section-lp-grey {
-    background-color: #f0f0f0;
-    padding: 50px 0;
-}
-
-.testimonial .container {
-    padding: 30px;
-}
-
-.img-box {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.text-box {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.text-box-head {
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.text-client-area {
-    font-size: 1.2em;
-    color: #666;
-}
-
-.text-box-subhead {
-    font-size: 1em;
-    margin-bottom: 20px;
-}
-
-.owl-carousel .slider-box {
-    display: flex;
-    justify-content: center;
-}
-
-.image-section img {
-    max-width: 100%;
-    border-radius: 15px;
-}
-
-.owl-theme .owl-nav {
-    margin-top: 10px;
-}
-
-.owl-theme .owl-nav [class*='owl-'] {
-    color: #FFF;
-    font-size: 14px;
-    margin: 5px;
-    padding: 4px 7px;
-    background: #D6D6D6;
-    display: inline-block;
-    cursor: pointer;
-    border-radius: 3px;
-}
-
-.owl-theme .owl-nav [class*='owl-']:hover {
-    background: #869791;
-    color: #FFF;
-    text-decoration: none;
-}
