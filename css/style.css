@@ -744,6 +744,17 @@ a:focus {
     width: 100%;
 }
 
+    @keyframes slideDown {
+    0% {
+        top: -100px;
+    }
+    100% {
+        top: 80vh; /* Adjust as needed */
+    }
+}
+
+
+
 .service .service-overlay {
     position: absolute;
     width: 100%;

@@ -937,4 +937,14 @@ function func1()
     }, 500); // Adjust delay if needed
 });
 
+
+document.addEventListener("DOMContentLoaded", function() {
+const whatsappButton = document.getElementById('whatsapp');
+setTimeout(function() {
+    whatsappButton.style.animation = 'slideDown 2s forwards';
+}, 500); // Adjust delay if needed
+});
+
+
+
     
