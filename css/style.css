@@ -4538,3 +4538,74 @@ main .subBanner .subbanner-text {
     padding: 10px;
     animation: round 2s linear infinite;
 }
+
+
+
+
+
+}
+
+.section-lp-grey {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+
+.testimonial .container {
+    padding: 30px;
+}
+
+.img-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text-box-head {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.text-client-area {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.text-box-subhead {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.owl-carousel .slider-box {
+    display: flex;
+    justify-content: center;
+}
+
+.image-section img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.owl-theme .owl-nav {
+    margin-top: 10px;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #D6D6D6;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: #869791;
+    color: #FFF;
+    text-decoration: none;
+}
