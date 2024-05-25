@@ -4559,6 +4559,13 @@ main .subBanner .subbanner-text {
 }
 
 
+/** testimonial img css**/
+.testimg{
+    height: 200px;
+    width:300px !important;
+    text-align: center;
+}
+
 
 
 
