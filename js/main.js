@@ -800,112 +800,112 @@ $(document).ready(function() {
     //----------------------1------
     window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-    /*gtag('config', 'AW-844999971');*/
-    gtag("config", "AW-770899520");
+    // function gtag() {
+    //     dataLayer.push(arguments);
+    // }
+    // gtag("js", new Date());
+    // /*gtag('config', 'AW-844999971');*/
+    // gtag("config", "AW-770899520");
     // gtag('config', 'UA-113234250-1');
 
     //----------------------2------
-    !(function(f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function() {
-            n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = "2.0";
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s);
-    })(
-        window,
-        document,
-        "script",
-        "https://connect.facebook.net/en_US/fbevents.js"
-    );
-    fbq("init", "555410081511945");
-    fbq("track", "PageView");
+    // !(function(f, b, e, v, n, t, s) {
+    //     if (f.fbq) return;
+    //     n = f.fbq = function() {
+    //         n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+    //     };
+    //     if (!f._fbq) f._fbq = n;
+    //     n.push = n;
+    //     n.loaded = !0;
+    //     n.version = "2.0";
+    //     n.queue = [];
+    //     t = b.createElement(e);
+    //     t.async = !0;
+    //     t.src = v;
+    //     s = b.getElementsByTagName(e)[0];
+    //     s.parentNode.insertBefore(t, s);
+    // })(
+    //     window,
+    //     document,
+    //     "script",
+    //     "https://connect.facebook.net/en_US/fbevents.js"
+    // );
+    // fbq("init", "555410081511945");
+    // fbq("track", "PageView");
 
     // End Facebook Pixel
     //Quora Pixel Code (JS Helper)
-    !(function(q, e, v, n, t, s) {
-        if (q.qp) return;
-        n = q.qp = function() {
-            n.qp ? n.qp.apply(n, arguments) : n.queue.push(arguments);
-        };
-        n.queue = [];
-        t = document.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = document.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s);
-    })(window, "script", "https://a.quora.com/qevents.js");
-    qp("init", "311b7417252443a0ae91fc77e8fe2f4f");
-    qp("track", "ViewContent");
-    //<!-- Google Tag Manager -->
-    (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            "gtm.start": new Date().getTime(),
-            event: "gtm.js",
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s),
-            dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, "script", "dataLayer", "GTM-WLR8MTX");
-    //<!-- Bing -->
-    (function(w, d, t, r, u) {
-        var f, n, i;
-        (w[u] = w[u] || []),
-        (f = function() {
-            var o = {
-                ti: "134601667",
-            };
-            (o.q = w[u]), (w[u] = new UET(o)), w[u].push("pageLoad");
-        }),
-        (n = d.createElement(t)),
-        (n.src = r),
-        (n.async = 1),
-        (n.onload = n.onreadystatechange =
-            function() {
-                var s = this.readyState;
-                (s && s !== "loaded" && s !== "complete") ||
-                (f(), (n.onload = n.onreadystatechange = null));
-            }),
-        (i = d.getElementsByTagName(t)[0]),
-        i.parentNode.insertBefore(n, i);
-    })(window, document, "script", "//bat.bing.com/bat.js", "uetq");
+    // !(function(q, e, v, n, t, s) {
+    //     if (q.qp) return;
+    //     n = q.qp = function() {
+    //         n.qp ? n.qp.apply(n, arguments) : n.queue.push(arguments);
+    //     };
+    //     n.queue = [];
+    //     t = document.createElement(e);
+    //     t.async = !0;
+    //     t.src = v;
+    //     s = document.getElementsByTagName(e)[0];
+    //     s.parentNode.insertBefore(t, s);
+    // })(window, "script", "https://a.quora.com/qevents.js");
+    // qp("init", "311b7417252443a0ae91fc77e8fe2f4f");
+    // qp("track", "ViewContent");
+    // //<!-- Google Tag Manager -->
+    // (function(w, d, s, l, i) {
+    //     w[l] = w[l] || [];
+    //     w[l].push({
+    //         "gtm.start": new Date().getTime(),
+    //         event: "gtm.js",
+    //     });
+    //     var f = d.getElementsByTagName(s)[0],
+    //         j = d.createElement(s),
+    //         dl = l != "dataLayer" ? "&l=" + l : "";
+    //     j.async = true;
+    //     j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+    //     f.parentNode.insertBefore(j, f);
+    // })(window, document, "script", "dataLayer", "GTM-WLR8MTX");
+    // //<!-- Bing -->
+    // (function(w, d, t, r, u) {
+    //     var f, n, i;
+    //     (w[u] = w[u] || []),
+    //     (f = function() {
+    //         var o = {
+    //             ti: "134601667",
+    //         };
+    //         (o.q = w[u]), (w[u] = new UET(o)), w[u].push("pageLoad");
+    //     }),
+    //     (n = d.createElement(t)),
+    //     (n.src = r),
+    //     (n.async = 1),
+    //     (n.onload = n.onreadystatechange =
+    //         function() {
+    //             var s = this.readyState;
+    //             (s && s !== "loaded" && s !== "complete") ||
+    //             (f(), (n.onload = n.onreadystatechange = null));
+    //         }),
+    //     (i = d.getElementsByTagName(t)[0]),
+    //     i.parentNode.insertBefore(n, i);
+    // })(window, document, "script", "//bat.bing.com/bat.js", "uetq");
 
-    //-------------------2--------
-    function custom_template(obj) {
-        var data = $(obj.element).data();
-        var text = $(obj.element).text();
-        if (data && data["img_src"]) {
-            img_src = data["img_src"];
-            template = $(
-                "<div class='countryFlag'><img src=\"" +
-                img_src +
-                '" style="width:16px;height:16px;"/><p style="font-size:13pt;text-align:center;margin:0 0 0 5px">' +
-                text +
-                "</p></div>"
-            );
-            return template;
-        }
-    }
-    var options = {
-        templateSelection: custom_template,
-        templateResult: custom_template,
-    };
+    // //-------------------2--------
+    // function custom_template(obj) {
+    //     var data = $(obj.element).data();
+    //     var text = $(obj.element).text();
+    //     if (data && data["img_src"]) {
+    //         img_src = data["img_src"];
+    //         template = $(
+    //             "<div class='countryFlag'><img src=\"" +
+    //             img_src +
+    //             '" style="width:16px;height:16px;"/><p style="font-size:13pt;text-align:center;margin:0 0 0 5px">' +
+    //             text +
+    //             "</p></div>"
+    //         );
+    //         return template;
+    //     }
+    // }
+    // var options = {
+    //     templateSelection: custom_template,
+    //     templateResult: custom_template,
+    // };
 });
 
 //services in about
