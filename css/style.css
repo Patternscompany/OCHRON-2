@@ -3188,7 +3188,7 @@ main .section-lp-grey {
     /* margin-top: 30px; */
     padding-top: 25px;
     padding-bottom: 30px;
-    background-color: #ebebeb;
+   
 }
 
 main .main-box {
@@ -4198,7 +4198,7 @@ main .subBanner .subbanner-img {
 }
 
 main .subBanner .subbanner-img img {
-    background: white;
+    background: #E5ED03;
     border-radius: 50%;
     width: 100px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
