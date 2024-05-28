@@ -2930,7 +2930,17 @@ a:focus {
     background-size: cover;
 }
    
-    
+    @media(max-width:992px){
+        .page-header{
+            height: 100%;
+        }
+        .page-header9 {
+            height: 100%;
+        }
+        .page-header11{
+            height: 200px;
+        }
+    }
   
   .testi{
     background-image: url("img/wardrobe/AnyConv.com__IMG_2925.jpg") !important;
