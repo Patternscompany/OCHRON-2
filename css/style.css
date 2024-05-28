@@ -2829,6 +2829,9 @@ a:focus {
     .navbar-brand.logo-title h2{
         color: white;
     }
+    .navbar-brand.logo-title .logo{
+       width: 100px;
+    }
 .testimonial-carousel .owl-dots .owl-dot::after {
     position: absolute;
     width: 40px;
