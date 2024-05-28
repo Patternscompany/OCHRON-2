@@ -72,7 +72,7 @@ a:focus {
     text-align: center;
     line-height: 1;
     font-size: 22px;
-    right: 15px;
+    right: 30px;
     bottom: 15px;
     transition: background 0.5s;
     z-index: 9;
@@ -102,7 +102,7 @@ a:focus {
 }
 
 .top-bar .logo {
-    padding: 15px 0;
+    padding: 5px 0;
     text-align: left;
     overflow: hidden;
 }
@@ -234,7 +234,7 @@ a:focus {
 
 @media (min-width: 992px) {
     .nav-bar {
-        padding: 0 75px;
+        padding: 0 20px;
     }
     
     .nav-bar.nav-sticky {
@@ -2100,7 +2100,7 @@ a:focus {
 /*******************************/
 .footer {
     position: relative;
-    margin-top: 45px;
+    /* margin-top: 45px; */
     padding-top: 90px;
     background:black;
     color: #ffffff;
@@ -2795,7 +2795,34 @@ a:focus {
     width: 100px;
     height: 100px;
 }
-
+.logo-title{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .logo-title .logo{
+        width: 150px;
+        object-fit: scale-down;
+    }
+    .logo-title h2{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-weight: 900;
+        background: linear-gradient(90deg,#0d6593,#56c3da);
+        color: transparent;
+        background-clip: text;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 1.7rem;
+        margin-left: 10px;
+    }
+    .logo-title h2 span{
+    letter-spacing: 5.2px;
+    font-size: 1rem;
+    font-weight: 800;
+    }
 .testimonial-carousel .owl-dots .owl-dot::after {
     position: absolute;
     width: 40px;
@@ -2977,7 +3004,7 @@ header .alg-center {
 }
 
 main {
-    margin-top: 63px;
+    /* margin-top: 63px; */
 }
 
 footer {
