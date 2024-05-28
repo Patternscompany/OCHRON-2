@@ -167,6 +167,9 @@ a:focus {
     .top-bar .logo {
         text-align: center;
     }
+    .top-bar{
+        display: none;
+    }
 }
 
 
@@ -2822,6 +2825,9 @@ a:focus {
     letter-spacing: 5.2px;
     font-size: 1rem;
     font-weight: 800;
+    }
+    .navbar-brand.logo-title h2{
+        color: white;
     }
 .testimonial-carousel .owl-dots .owl-dot::after {
     position: absolute;
