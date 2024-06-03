@@ -206,7 +206,7 @@ a:focus {
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     padding: 10px 10px 8px 10px;
-    color: #E5ED03;
+    color:white;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -4198,7 +4198,7 @@ main .subBanner .subbanner-img {
 }
 
 main .subBanner .subbanner-img img {
-    background: #E5ED03;
+    background:white;
     border-radius: 50%;
     width: 100px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
