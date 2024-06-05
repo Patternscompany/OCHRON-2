@@ -2912,7 +2912,12 @@ a:focus {
     height: 500px;
 }
 .page-header6 {
-    background:url(../img/spacesavehero.png) center center no-repeat;
+    background:url(../img/pageheros/2.png) center center no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.page-header44 {
+    background:url(../img/pageheros/1.png) center center no-repeat;
     background-size: cover;
     height: 500px;
 }
