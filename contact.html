@@ -186,25 +186,46 @@
                                 <div id="success"></div>
                                 <form name="sentMessage" id="contactForm" novalidate="novalidate">
                                     <div class="control-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" 
+                                               data-validation-required-message="Please enter your name" oninput="validateName()" />
+                                        <p class="help-block text-danger" id="nameError"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" 
+                                               data-validation-required-message="Please enter your email" />
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="control-group">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" 
+                                               data-validation-required-message="Please enter a subject" />
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="control-group">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                        <textarea class="form-control" id="message" placeholder="Message" required="required" 
+                                                  data-validation-required-message="Please enter your message"></textarea>
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div>
                                         <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
                                     </div>
                                 </form>
+                                
+                                <script>
+                                function validateName() {
+                                    const nameInput = document.getElementById("name");
+                                    const nameError = document.getElementById("nameError");
+                                    const regex = /^[a-zA-Z\s]+$/;
+                                
+                                    if (!regex.test(nameInput.value)) {
+                                        nameError.textContent = "Please enter only alphabetic characters.";
+                                        nameInput.setCustomValidity("Invalid");
+                                    } else {
+                                        nameError.textContent = "";
+                                        nameInput.setCustomValidity("");
+                                    }
+                                }
+                                </script>
+                                
                             </div>
                         </div>
                     </div>
