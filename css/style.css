@@ -2103,8 +2103,8 @@ a:focus {
 /*******************************/
 .footer {
     position: relative;
-    /* margin-top: 45px; */
-    padding-top: 90px;
+     margin-top: 45px; 
+    padding-top: 8px;
     background:black;
     color: #ffffff;
 }
@@ -2196,7 +2196,7 @@ a:focus {
 }
 
 .footer .newsletter input {
-    height: 50px;
+    height: 40px;
     border: 2px solid #121518;
     border-radius: 0;
 }
@@ -2251,7 +2251,7 @@ a:focus {
 
 
 .footer .copyright {
-    padding: 30px 15px;
+    padding: 5px 5px;
 }
 
 .footer .copyright p {
